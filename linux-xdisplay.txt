@@ -1,0 +1,12 @@
+When you are experiencing an issue where you can open/execute a program
+under a certain user but not a different user and you fault out with
+a gtk display error message or no display etc.
+
+First check environment variables for display $DISPLAY=0:0
+Make sure environment variables are set the same for the user
+that it is working. If all else fails an you rule out all other issues,
+run 
+$ xhost +
+
+This command grants permissions for all users to access xserver to utilize 
+xhost display to open program. 
