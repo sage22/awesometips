@@ -1,0 +1,6 @@
+List libs 
+
+
+
+root>$ ldconfig -v | grep nameoflib
+
