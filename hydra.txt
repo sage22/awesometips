@@ -1,0 +1,4 @@
+Some quick commands to help me do my thing
+
+hydra -l username -P /path/to/where/isaved/wordlists 'ipaddress' ssh
+
